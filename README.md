@@ -12,4 +12,9 @@ To run it:
   
 where networkFile is the file containing the network, in "list of edges" format, method is the clique-finding algorithm to use ("BK" or "KJ"), and nComm is the number of communities required.
 
+networkFile format:
+node1 node2
+node1 node3
+...
+
 The program prints the modularity of the solution and outputs the solution to a file named "ClustersOutput.txt".
