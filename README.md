@@ -8,8 +8,8 @@ OR https://arxiv.org/pdf/1202.0480.pdf
 
 To run it:
 
-   java -cp CM.jar CM <networkFile> -m <method> -c <nComm>
+   java -cp CM.jar CM networkFile -m method -c nComm
   
-where <networkFile> is the file containing the network, in "list of edges" format, <method> is the clique-finding algorithm to use ("BK" or "KJ"), and <nComm> is the number of communities required.
+where networkFile is the file containing the network, in "list of edges" format, method is the clique-finding algorithm to use ("BK" or "KJ"), and nComm is the number of communities required.
 
 The program prints the modularity of the solution and outputs the solution to a file named "ClustersOutput.txt".
