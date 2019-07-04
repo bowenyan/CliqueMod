@@ -2,10 +2,7 @@
 
 It's a community detection algorithm for unweighted, undirected networks. It is a simple algorithm to detect disjoint communities in networks by merging cliques, but performs better than most of modularity-based community detection algorithm.
 
-Find the detail of the paper: Detecting Communities in Networks by Merging Cliques.
-By these links:
-https://ieeexplore.ieee.org/abstract/document/5358036
-OR https://arxiv.org/pdf/1202.0480.pdf
+Find the detail of the paper: [Detecting Communities in Networks by Merging Cliques](https://ieeexplore.ieee.org/abstract/document/5358036) or [arXiv:1202.0480](https://arxiv.org/pdf/1202.0480.pdf)
 
 To run it:
 
